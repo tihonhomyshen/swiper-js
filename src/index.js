@@ -12,7 +12,18 @@ new Swiper('.image-slider', {
         // renderBullet: function (index, className){
         //     return '<span class="' + className + '">' + (index + 1) + '</span>';
         // },
-        type: 'fraction',
+        // type: 'progressbar',
+    },
+
+    scrollbar: {
+        el: '.swiper-scrollbar',
+        draggable: true
+    },
+
+    grabCursor: true,
+
+    mousewheel: {
+        eventsTarget: ".image-slider",
     },
 });
 

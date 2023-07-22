@@ -84,3 +84,12 @@ body{
     font-size: 16px;
     background-color: aqua;
 }
+
+.image-slider .swiper-pagination-progressbar-fill{
+    background-color: aqua;
+}
+
+.image-slider .swiper-scrollbar-drag{
+    cursor: pointer;
+    background-color: blue;
+}

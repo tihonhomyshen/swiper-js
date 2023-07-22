@@ -6,12 +6,7 @@ new Swiper('.image-slider', {
 
     pagination: {
         el: '.swiper-pagination',
-        // clickable: true,
-        // dynamicBullets: true,
-
-        // renderBullet: function (index, className){
-        //     return '<span class="' + className + '">' + (index + 1) + '</span>';
-        // },
+        clickable: true,
         // type: 'progressbar',
     },
 
@@ -25,5 +20,13 @@ new Swiper('.image-slider', {
     mousewheel: {
         eventsTarget: ".image-slider",
     },
+
+    autoHeight: true,
+
+    slidesPerView: 3,
+    spaceBetween: 30,
+    slidesPerGroup: 1,
+    centeredSlides: true,
+    initialSlide: 3,
 });
 
